@@ -379,3 +379,14 @@ a.warning {
 	width: 270px !important;
 	margin-top: 24px;
 }
+.homa .card-image img {
+	width: 81% !important;
+	left: -103px !important;
+	padding-top: 13px;
+	height: 244px;
+}
+.mehraraseir .card-image img {
+	width: 100% !important;
+	top: -9px !important;
+	left: -121px !important;
+}
