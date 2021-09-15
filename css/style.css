@@ -1,0 +1,381 @@
+
+html {
+	scroll-behavior: smooth;
+  }
+@media only screen and (max-height: 636px){
+
+    section.left-part div.bottom-part {
+        position: static !important;
+        bottom: 0px !important;
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 602px){
+	.left-part{
+		display: none;
+	}
+	section.right-part {
+		margin-left: 0px !important; 
+	}
+	.about .research-interest .m6 ul{
+		margin: 0;
+	}
+}
+
+@font-face {
+    font-family: 'roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('roman'), url('../assets/fonts/times.woff') format('woff');
+    }
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.roman{
+	font-family: 'roman';
+}
+
+section.left-part {
+	position: fixed;
+	width: -moz-available;
+}
+section.left-part > div {
+	position: fixed;
+	height: 100%;
+	width: 250px;
+	overflow: auto;
+}
+img.avatar {
+	width: 100%;
+	padding: 20px 30px;
+}
+section.left-part div.name {
+	font-size: 19px;
+	font-weight: 508;
+	margin-top: -4px;
+}
+section.left-part div.options ul li {
+	position: relative;
+	color: black;
+	width: 200px;
+	color: #e0e0e0;
+	border-radius: 3px;
+	height: 31px;
+	padding-top: 3px;
+	/* box-shadow: 0 0px 0px 0 rgba(0,0,0,0),0 0px 0px 0px rgba(0,0,0,0),0 0px 4px 0 rgba(0,0,0,0.2); */
+	padding-right: 48px;
+}
+section.left-part div.options ul a {
+	color: black;
+	width: 100% !important;
+}
+section.left-part div.options ul a span {
+	color: black;
+	position: absolute;
+	top: 5px;
+	margin-left: 4px;
+}
+section.left-part div.options ul a:hover {
+	font-weight: bold !important;
+    transition: 0.5s;
+}
+div.icons {
+	padding: 0 30px;
+}
+div.icons  a.google{
+    background-color: #dd4b39;
+}
+div.icons  a.linkedin{
+    background-color: #007bb6;
+}
+div.icons  a.github{
+    background-color: #444444;
+}
+div.icons {
+	padding: 0 30px;
+
+	width: 100%;
+	text-align: center;
+}
+div.icons a {
+	margin-left: 5px;
+}
+p.design {
+	padding: 0 30px;
+	width: 100%;
+	text-align: center;
+}
+section.left-part div.bottom-part {
+	position: absolute;
+	bottom: 10px;
+}
+section.left-part div.options{
+	margin-top: 20px;
+	position: relative;
+}
+img.bg {
+width: 100%;
+  }
+section.right-part{
+    margin-left: 250px;
+}
+div.bg-img {
+	position: relative;
+	width: 100%;
+	min-height: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-image: url("../assets/images/computer.png");
+	text-align: center;
+	color: white;
+	height: 100vh;
+}
+.major {
+	font-size: 20px;
+	top: 37%;
+	position: absolute;
+	width: 100%;
+	padding: 0 30px;
+	font-weight: bold;
+}
+/*about section*/
+
+.about {
+	padding-bottom: 35px;
+	padding-top: 30px;
+}
+.about .biography-header {
+	margin: 0;
+	padding-bottom: 20px;
+}
+.about .biography-text {
+	margin: 0;
+	padding-left: 2px;
+}
+.home .my-cv {
+	top: 22px;
+	border-radius: 30px;
+}
+.about .research-interest ul li, .about .education ul li{
+		list-style: inside;
+	
+}
+.about .research-interest .m6 {
+	padding: 0;
+}
+.about .research-interest h4 {
+	margin-bottom: 3px !important;
+}
+.education button.my-cv {
+	box-shadow: 0 !important;
+	top: 19px;
+	border-radius: 30px;
+}
+.fa-laptop-code {
+	width: 23px;
+}
+.projects,.presentations{
+	padding: 30px 0;
+}
+.projects .projects-underline, .certificates-underline {
+	width: 116px;
+	height: 1px;
+	text-align: center;
+	margin-left: 50%;
+	position: relative;
+	left: -58px;
+	top: 12px;
+}
+.certificates-underline {
+		width: 158px;
+		left: -78px;
+}
+.card {
+	width: 250px;
+	border-radius: 4px !important;
+	display: inline-block;
+	margin: 0 24px !important;
+	margin-top: 69px !important;
+}
+.card-action{
+	border-radius: 4px !important;
+}
+.card .card-image img {
+	width: 67% !important;
+	margin-left: 50% !important;
+	left: -84px !important;
+	padding: 15px 20px 53px 17px;
+}
+ .card-title {
+	padding: 8px 10px 9px 10px !important;
+	width: 100%;
+	background: rgba(120, 144, 156, .94);
+}
+.card .card-title {
+	font-size: 16px !important;
+	
+}
+.card .chip{
+	font-size: 11px !important;
+}
+div.card div.card-image img.bank-diagram {
+	width: 100% !important;
+	margin-left: 50% !important;
+	left: -134px !important;
+	/* padding: 15px 20px 53px 17px; */
+	height: 250px;
+}
+.description{
+	cursor: pointer;
+	padding: 16px 24px !important;
+	border-top: 1px solid rgba(160,160,160,0.2);
+}
+.card .card-reveal {
+	padding: 0 !important;
+}
+.card .card-reveal ul li {
+	list-style: disc !important;
+	padding: 0 0;
+}
+.card .card-reveal ul {
+	padding-left: 23px !important;
+}
+a.warning {
+	left: 18px;
+	cursor: pointer;
+}
+.card span.card-title{
+
+	padding: 8px 10px 8px 10px !important;
+}
+.card .card-image img.TDD-image {
+	width: 104% !important;
+	margin-left: 50% !important;
+	left: -130px !important;
+	padding: 22px 20px 61px 17px;
+}
+.report-icon {
+	position: absolute;
+	margin-left: 4px;
+}
+.HCI-project .card-image img {
+	width: 112% !important;
+	margin-left: 50% !important;
+	left: -138px !important;
+	padding: 0px 17px 40px 13px;
+	height: 190px;
+	border-radius: 5px;
+}
+.www {
+	top: 6px;
+	left: 3px;
+	position: relative;
+}
+.presentations .presentations-underline {
+	width: 201px;
+	height: 1px;
+	text-align: center;
+	margin-left: 50%;
+	position: relative;
+	left: -101px;
+	top: 12px;
+}
+.image-processing video{
+		top: -7px;
+		position: relative;	
+}
+.image-processing .video-hover {
+	width: 250px;
+	height: 150px;
+	background: rgba(245, 245, 245,0.5);
+	position: absolute;
+	top: 0;
+}
+.image-processing .video-hover i {
+	top: 31px;
+	position: relative;
+	font-size: 57px;
+}
+.communication-protocol .card-image img {
+	height: 193px;
+	width: 72% !important;
+	left: -86px !important;
+}
+.web-mining .card-image img {
+	height: 193px;
+	width: 300px !important;
+	left: -142px !important;
+	top: -15px !important;
+	position: relative;
+	padding: 0;
+}
+.DS-methodology .card-image img {
+	height: 193px;
+	width: 300px !important;
+	left: -150px !important;
+	top: -18px !important;
+	position: relative;
+	padding: 38px;
+}
+.big-data .card-image span {
+	font-size: 14px !important;
+}
+.big-data .card-image img {
+	width: 267px !important;
+	left: -142px !important;
+	padding: 0 !important;
+	height: 193px;
+}
+.compare-10-websites .card-image img {
+	width: 251px !important;
+	left: -125px !important;
+	padding: 0;
+	height: 207px;
+}
+.compare-10-websites .card-image {
+	height: 247px;
+}
+
+.duct .card-image img{
+	height: 247px;
+}
+.python-data-science div.card-image img {
+	width: 287px !important;
+	left: -142px !important;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 250px;
+}
+.certificates .certificates-image {
+	width: 250px;
+	cursor: pointer;
+	margin: 0 20px !important;
+	position: relative;
+	margin-top: 61px !important;
+}
+.sololearn img {
+	height: 194px;
+}
+.table-of-contents a.active {
+	border-left: 4px solid #7986cb  !important;
+}
+.table-of-contents a {
+	height: 2.3rem !important;
+	padding-left: 0px !important;
+}
+.mrg{
+	margin-top: 15px;
+}
+#about {
+	padding: 46px 0;
+}
+.avatar-2 {
+	width: 270px !important;
+	margin-top: 24px;
+}
