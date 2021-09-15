@@ -41,6 +41,7 @@ body{
 section.left-part {
 	position: fixed;
 	width: -moz-available;
+	overflow-x: hidden;
 }
 section.left-part > div {
 	position: fixed;
