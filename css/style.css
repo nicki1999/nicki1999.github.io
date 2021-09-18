@@ -52,6 +52,7 @@ section.left-part > div {
 img.avatar {
 	width: 100%;
 	padding: 20px 30px;
+	border-radius: 59%;
 }
 section.left-part div.name {
 	font-size: 19px;
@@ -379,6 +380,7 @@ a.warning {
 .avatar-2 {
 	width: 270px !important;
 	margin-top: 24px;
+	border-radius: 59%;
 }
 .homa .card-image img {
 	width: 81% !important;
@@ -390,4 +392,7 @@ a.warning {
 	width: 100% !important;
 	top: -9px !important;
 	left: -121px !important;
+}
+.ibm img {
+	width: 193px !important;
 }
