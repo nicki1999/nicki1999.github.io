@@ -396,3 +396,9 @@ a.warning {
 .ibm img {
 	width: 193px !important;
 }
+.card div.card-image img.office_noisy {
+	width: 100% !important;
+	left: -125px !important;
+	height: 288px !important;
+	padding: 0;
+}
